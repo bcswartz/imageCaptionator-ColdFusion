@@ -1,0 +1,192 @@
+/* All pages */
+
+body {
+	margin:0px;
+	padding:0px;
+	font-family:Trebuchet MS, Verdana, Arial, sans-serif;
+}
+
+.line_spacer {
+	 position:relative;
+	 clear:both;
+	 width:100%;
+	 margin-top:15px;
+	}
+
+a {
+	color:#0000FF;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#0000FF;
+	text-decoration:underline;
+}
+
+form label {float:left;width:6em;font-weight:600;}
+
+#headerDiv {
+	background-color:#33CCFF;
+	color:#FFFFFF;
+}
+
+#headerDiv h3 {
+	padding:.5ex 1em .5ex 1em;
+	margin:0px;
+	font-size:150%;
+}
+
+#navigationDiv p {
+	padding:.5ex 1em .5ex 1em;
+	margin-top:0px;
+	background-color:#CCFFFF;	
+}
+
+
+#navigationDiv a {
+	color:#0000FF;
+	text-decoration:none;	
+}
+#navigationDiv a:hover {
+	color:#0000FF;
+	text-decoration:underline;	
+}
+
+.noShow {display:none;}
+
+.no_records {font-style:italic;}
+
+/* Home page */
+
+#mainStatement {
+	background-color:#FFFF99;
+	font-size:105%;
+	padding:20px;
+	margin:10px;
+	width:90%;
+	text-align:center;
+}
+
+#statementShell {
+	background-color:#ffffff;
+	padding:8px 2px 1px 2px;
+}
+
+.homeImages {
+	padding:10px;
+}
+
+.homeOption {
+	color:#0000FF;
+	text-decoration:none;
+}
+
+.homeOption:hover {
+	color:#0000FF;
+	text-decoration:underline;
+	
+}
+
+/* modifyImage page */
+
+#outmostDiv {
+	width:95%;
+	padding:5px;
+}
+
+#leftBlock {
+	float:left;
+	clear:left;
+	padding-right:10px;
+	width:250px;
+}
+
+#rightBlock {
+	float:right;
+	clear:right;
+	width:75%;
+}
+
+#instructionBlock {
+	margin-top:0px;
+	padding-top:0px;
+	background-color:#CCFFFF;
+}
+
+#imageBlock {
+	/*width:100%;*/
+}
+
+#workspaceBlock {
+	/*float:left;*/
+	width:100%;
+	padding:.3ex 2em .3ex .3em;
+	margin-bottom:2ex;
+	border:2px solid #cccccc;
+	font-size:90%;
+}
+
+#workspaceBlock h3 {
+	margin-top:1px;
+	padding-top:0px;
+	font-weight:500;
+}
+
+#workspaceLeft {
+	float:left;
+	margin:0ex 2em 1ex 0ex;
+}
+
+
+#controlColTitle {
+	background-color:#3300FF;
+	color:#ffffff;
+	padding:.3ex .3em 1ex .3em;
+	margin:0ex 0em 1.3ex 0em;
+	font-weight:bold;
+	font-size:110%;
+}
+
+#resultBlock {
+	/*float:right;*/
+	color:#000000;
+	width:100%;
+	font-size:90%;
+	padding:.3ex .3em .3ex .3em;
+	/*border:2px solid #cccccc;*/
+
+}
+
+#resultImage {
+	float:left;
+	margin:0ex 2em 1ex 0ex;
+}
+
+#selectedBlockTitle {
+	font-weight:bold;
+	font-size:105%;
+}
+
+#generateMsg {
+	color:#cccccc; 
+	
+}
+.aColor {cursor:crosshair;}
+
+/* Gallery styles */
+
+.nextImageP {
+	padding:2ex;
+	background-color:#CCFFFF;	
+}
+
+.nextImageP a {
+	font-size:110%;
+	text-decoration:none;
+}
+
+.nextImageP a:hover {
+	font-size:110%;
+	text-decoration:underline;
+}
+
