@@ -9,6 +9,8 @@ overlay text or blocks of color over the image. When the user saved their work, 
 overlay was saved to a database record along with a reference to the image file itself.  So rather than creating a new
 image file, the application would save the data needed to replicate the user's image using ColdFusion code.
 
+To see the application in action, you can watch the following YouTube video:  https://youtu.be/JcLnO6zB3MM
+
 The code in this codebase is old and wasn't written with the best practices for writing ColdFusion or JavaScript code
 in mind (not by 2008 standards and certainly not by modern standards).  And the UI is functional but hardly pretty.  But the JavaScript/jQuery code still worked on
 Chrome as of December 2017, and the ColdFusion code should work on a current ColdFusion instance with some refactoring 
